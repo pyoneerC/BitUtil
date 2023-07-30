@@ -4,6 +4,7 @@
  * TODO: Implement functions in the header file
  * TODO: Make functions more robust by enhancing the error handling
  * TODO: Extensive testing
+ * TODO: Better file structure and organization by adding folders
  */
 
 namespace BitUtil {
