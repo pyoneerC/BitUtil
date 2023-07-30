@@ -1,2 +1,63 @@
 # Project exclude paths
 /cmake-build-debug/
+
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+*.dylib
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+*.pdb
+*.exp
+
+# Visual Studio Code specific files
+.vscode/
+
+# CMake build directory
+build/
+
+# IDE project files
+*.cbp
+*.workspace
+*.suo
+*.user
+*.sln
+
+# Dependency directories
+dependencies/
+libs/
+vendor/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Compiled WebAssembly modules
+*.wasm
+*.wast
+
+# macOS specific files
+.DS_Store
+Icon?
+._*
+
+# Clion specific files
+.cproject
+.externalToolBuilders/
+.idea/

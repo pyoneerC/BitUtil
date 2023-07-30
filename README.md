@@ -38,7 +38,7 @@ Let's dive into some basic examples to see how the library works.
 int main() {
     int number = 42;
     std::string binaryStr = BitUtil::num_to_bitstr(number);
-    std::cout << "Binary representation of " << number << ": " << binaryStr << std::endl;
+    std::cout << "Binary representation of " << number << ": " << binaryStr << '\n'; // 101010
     return 0;
 }
 ```
@@ -52,7 +52,7 @@ int main() {
 int main() {
     std::string binaryStr = "101010";
     unsigned int number = BitUtil::bitstr_to_num(binaryStr);
-    std::cout << "Integer representation of " << binaryStr << ": " << number << std::endl;
+    std::cout << "Integer representation of " << binaryStr << ": " << number << '\n'; // 42
     return 0;
 }
 ```
